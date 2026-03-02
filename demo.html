@@ -1146,6 +1146,7 @@
     document.getElementById('next').addEventListener('click', () => goto(cur + 1));
 
     /* ─── TOUCH / SWIPE ───────────────────────────────────── */
+    /* ─── TOUCH / SWIPE ───────────────────────────────────── */
     let tx = 0;
     document.addEventListener('touchstart', e => { tx = e.touches[0].clientX; }, { passive: true });
     document.addEventListener('touchend',   e => {
